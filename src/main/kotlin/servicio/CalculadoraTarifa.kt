@@ -5,7 +5,6 @@ import modelo.Maquina
 import modelo.TipoUsuario
 import kotlin.math.round
 
-// Calcula cuanto paga el usuario al finalizar el ciclo.
 object CalculadoraTarifa {
 
     private const val IVA = 0.19
