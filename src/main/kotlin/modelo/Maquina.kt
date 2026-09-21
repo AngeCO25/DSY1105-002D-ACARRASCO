@@ -4,6 +4,7 @@ import java.time.LocalDateTime
 
 abstract class Maquina(
     val codigo: String,
+    val marca: String,
     val modelo: String,
     val tipoUsuario: TipoUsuario,
     val ingreso: LocalDateTime = LocalDateTime.now()
